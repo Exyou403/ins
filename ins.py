@@ -28,7 +28,6 @@ os.system("wget https://dl.google.com/linux/direct/google-chrome-stable_current_
 os.system("apt-get install ./google-chrome-stable_current_amd64.deb")
 os.system("ulimit -n 999999")
 os.system("chmod 777 *")
-os.system("rm ./ins.py")
 print("run tools : python3 c2.py\n\n Username : admin\n Password : admin")
-
+os.system("rm ./ins.py")
 
